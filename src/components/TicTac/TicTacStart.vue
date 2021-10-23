@@ -27,30 +27,6 @@
         <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) --> <!--  <table class='tableX' id='gameTable'> -->
         
         
-            <!-- building horizontal -->
-            <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) --> <!-- <tr v-for="(item, index) in horizontal" :key="index"> -->
-        
-                <!-- building vertcial -->
-                <!-- Uses fu**ing Vue iterator, instead of simple i++--> 
-
-                <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) --> <!-- <template v-for="(item2, index2) in vertical"> -->  <!-- uses template to use v-loop without html tag -->
-                    <!-- Build empty td cell, used for building IF this iterator is undefined in gameHits[] -->            
-                    <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!-- <td :key="index2" v-if="booksGet[index * horizontal + index2] == undefined " class="game-cell" :id="index * horizontal + index2"  @click="mainUserClick(index * horizontal + index2)"> -->
-                        <!-- Nul => {{index * horizontal + index2}} -->
-                        <!-- {{index * horizontal + index2}} --> <!-- fu**ing iterator-->
-                        <!-- {{item2}} -->                    
-                    <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!-- </td> -->
-            
-                    <!-- Build taken td cell ("0" of "X"), used for building IF this iterator is defined in gameHits[] as ("0" of "X") -->            
-                    <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!--<td :key="index2" v-if="booksGet[index * horizontal + index2] != undefined " class="game-cell" :id="index * horizontal + index2"> -->   <!-- if array el is not undefined, dispplay it's value -->
-                    <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!--  {{ booksGet[index * horizontal + index2 ] }} --> 
-                        <!-- {{index * horizontal + index3}} --> <!-- fu**ing iterator-->
-                    <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!-- </td> -->
-            
-                <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->   <!-- </template> -->
-            
-            <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!-- </tr> -->
-            <!-- iterate over array -->
         
        <!-- WORKING LINES COMMENTED HERE(before sub_comp deploy) -->  <!-- </table> -->
       
