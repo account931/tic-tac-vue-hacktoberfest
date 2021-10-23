@@ -214,11 +214,7 @@ export default {
                     }
 		        }, 1);
                 
-                // stop setInterval anyway in timeX arg (in case prev counting did not reach 0). Working
-                /* setTimeout(() => { 
-                    clearInterval(timerId);
-                    this.counterTime = ''; //get time vanish                    
-                 }, timeX);   */              
+                      
                 
             },
             
